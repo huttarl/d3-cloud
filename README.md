@@ -59,7 +59,8 @@ maximum time interval, which defaults to `Infinity`.
 <a name="words" href="#words">#</a> <b>words</b>([<i>words</i>])
 
 If specified, sets the **words** array.  If not specified, returns the current
-words array, which defaults to `[]`.
+words array, which defaults to `[]`. Each item in the array is an *word* object of the
+form `{text: 'word', size: n}`.
 
 <a name="size" href="#size">#</a> <b>size</b>([<i>size</i>])
 
